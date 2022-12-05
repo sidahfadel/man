@@ -1,27 +1,77 @@
-body{
-    margin: 0;
-    padding: 0;
+body{ margin: 0; padding: 0; 
     font-family: verdana,sans-serif;
-    background: #2f3234;
-    background-image: url("https://www.ilmio.design/images/ILMIO/projectos/proyecto-comercial/tatel-madrid/restaurante_tatel_madrid_11.jpg")
-}
-nav{
-    width: 100%;
-    padding: 5px;
-    background-color: gray;
-}
-ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px;
-}
-ul li a{
-    text-decoration: none;
-    font-size: 18px;
-    padding: 12px;
-    color: #fff;
-
-}
-ul li a:hover{
-    color: #000101;
-}
+     background: #2f3234; 
+     background-repeat: no-repeat;
+      background-size: cover; 
+      background-image: url("https://hotels.his-j.com/image/hotel/USM/USM00085-24.jpg") } 
+      nav{ width: 100%; padding-left: 0; background-color: gray; } 
+      ul li{ list-style-type: none; display: inline-block; padding-left: 10px; } 
+      ul li a{ text-decoration: none; font-size: 18px; padding-left: 15px; color: #fff; }
+       ul li a:hover{ color: #000101; } 
+       main { padding-left: 40%; margin-top:   30%; color: #fff; text-size-adjust: 100px; }
+       *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    body{
+    
+        font-family: montserrat;
+    }
+    img {
+        background:  url("https://hotels.his-j.com/image/hotel/USM/USM00085-24.jpg") no-repeat;
+    }
+    nav{
+        background: #02e6;
+        height: 80px;
+        width: 100%;
+    }
+    label.logo {
+        color: orange;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    nav ul {
+        float: right;
+        margin-right: 10%;
+    
+    }
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+        }
+        nav ul li a {
+        color: white;
+        font-size: 17px;
+        padding: 17px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    
+    
+        }
+        a.active,a:hover{
+            background: #02e6;
+            transition: .5s;
+        }
+        .checkbtn{
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            
+        }
+        
+        #chechbox{
+            display: none;
+        }
+       
+                    
+                    
+                
