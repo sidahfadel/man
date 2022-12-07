@@ -1,4 +1,5 @@
 body{ margin: 0; padding: 0; 
+    
     font-family: verdana,sans-serif;
      background: #2f3234; 
      background-repeat: no-repeat;
@@ -19,6 +20,13 @@ body{ margin: 0; padding: 0;
     body{
     
         font-family: montserrat;
+        color: #fff;
+        
+    }
+    div{
+        padding-left: 40%;
+        padding-top: 15%;
+
     }
     img {
         background:  url("https://hotels.his-j.com/image/hotel/USM/USM00085-24.jpg") no-repeat;
@@ -74,6 +82,9 @@ body{ margin: 0; padding: 0;
         h2 {
             padding-top: 30px;
         
+       }
+       p {
+        display: inline-block;
        }
                     
                     
