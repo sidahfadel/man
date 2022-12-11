@@ -1,173 +1,196 @@
-* {
+*{
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    font-family: Calibri;
-  }
-  
-  /* NAVBAR */
-  
-  .navbar {
-    padding: 0px;
-    background-color: black;
-    color: #fff;
-  }
-  
-  .navbar__menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .navbar__item {
-    font-size: 20px;
-    text-align: center;
-    padding: 15px;
-    text-transform: uppercase;
-  }
-  
-  .navbar__item img {
-    height: 30px;
-  }
-  
-  .navbar__link {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .navbar__link:hover {
-    color: red;
-  }
-  
-  /* HERO */
-  
-  .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .hero {
-    background: whitesmoke;
-  }
-  
-  .hero__container {
-    display: flex;
-    letter-spacing: 2px;
-    text-align: center;
-    margin: 40px;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero__intro {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  
-  .hero__intro strong {
-    color: red;
-  }
-  
-  .hero__caption {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .hero img {
-    width: 60%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .hero img:hover {
-    filter: saturate(60%)
-  }
-  
-  .hero a {
-    text-decoration: none;
-    color: red;
-    font-size: 18px;
-  }
-  
-  .hero a::before {
-    content: "🅰️";
-  }
-  
-  .hero a:hover {
-    color: black;
-  }
-  
-  /* CHARACTERS */
-  
-  .characters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 40px;
-  }
-  
-  .characters__item {
-    border-radius: 8px;
-    margin: 14px;
-    text-align: center;
-    height: 300px;
-    width: 180px;
-    object-fit: cover;
-    padding: 4px;
-  }
-  
-  .characters__item img {
-    margin: 10px;
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-  }
-  
-  .characters__title {
-    background: rgb(0, 0, 0);
-    border-radius: 4px;
-    font-size: 22 px;
-    padding: 3px;
-    color: rgb(255, 255, 255);
-  }
-  
-  .characters__caption {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  /* FOOTER */
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    height: 40px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 4px;
-  }
-  
-  footer p {
-    margin: 14px;
-    font-size: 18px;
-  }
-  
-  footer strong {
-    color: red;
-  }
-  
-  /* EXTRA */
-  
-  hr {
-    height: 4px;
-    background-color: black;
-    border: none;
-  }}
+}
+    .header{
+    background-image: url("https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/teaser/large-teaser/bmw-sustainability-hometeaser-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1669016301503.jpg");
+      
+    min-height: 100vh;
+        width: 100%;
+        text-size-adjust: bold;
+
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    nav{
+        display: flex;
+        padding: 2% 15%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: x-large;
+        background: rgba(0,0,0,0.3);
+        
+        
+        
+    }
+
+       
+        
+        
+    
+    nav img{
+        width: 150px;
+
+    }
+    .nav-links{
+        flex: 1;
+        text-align: left;
+    
+         }
+
+         .nav-links ul li { 
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+
+        }
+    
+    .nav-links ul li a{ 
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        
+
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44330;
+        margin: auto;
+        
+        display: block;
+        transition: 0.5s;
+
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+
+    }
+    .text-box{
+
+     width: 90%;
+        color: white;
+        position:absolute
+        
+        
+    }
+     .text-box {
+        padding-top: 30%;
+        padding-left: 5%;
+        font-size: 30px;
+        list-style: none;
+        color: white;
+        
+     }
+     button {
+        color: white;
+     
+        border: none;
+        background-color: #0047ab;
+        
+    
+    padding: 10px 50px;
+
+     }
+    h1 {
+       
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+        color: #777;
+        display: inline;
+        
+          
+           
+     }
+     .row{
+        margin: 5%;
+        display: flex;
+        justify-content: space-between;
+
+
+    
+
+     }
+      .img-car{
+        width: 300px;
+        }
+       
+        
+
+        
+     section h1 {
+        display: center;
+     }
+     .logo {
+        width: 60px;
+    
+        float: right;
+        display: flex;
+        justify-items: self-start;
+        
+        
+       
+    
+     }
+     .logo map{
+        display: flex;
+     }
+     .car{
+        width: 250px;
+        
+        box-sizing: border-box;
+        border-radius: 12%;
+        
+       
+     }
+     .ha {
+        color: white;
+        font-size: large;
+
+        
+        
+     }
+     
+     
+     .card {
+        width: 200px;
+        height: 230px;
+        display: inline-flex;
+        border-radius: 10px;
+        padding: 15px 25px;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-image: url("https://th.bing.com/th/id/R.e9afed58b8f7dd99786e6f821afe59bf?rik=z22Zo2OKAcwqRA&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2017%2f03%2fbmw_i8-3.jpg&ehk=hIQgKDzNt2NtpXA9L4hyW6fauM5XZLdRMKRcIf%2bnwuo%3d&risl=&pid=ImgRaw&r=0");
+        background-position: center;
+        background-size: cover;
+     }
+    
+     .card h3 {
+        color: white;
+     }
+     .card h4{
+        color: white;
+     }
+     .card p{
+        color: white;
+
+     }
+     
+     
+     
+     
+    
+        
+       
+      
+     
+     
+     
+     
+    
+    
