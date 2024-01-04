@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=<div>
+		
+	</div>, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<input name="name" type="text" placeholder="name">
+		<input name="password" type="password" placeholder="password">
+	</div>
+</body>
+</html>
